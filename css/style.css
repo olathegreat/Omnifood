@@ -1,0 +1,380 @@
+.first{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./hero.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+
+
+}
+.first li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 4%;
+    color: white;
+    
+}
+.first a{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.first a:click,
+.first a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+.first a:hover,
+.first a:active{
+    color: orange;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.first ul{
+    margin-top: 10px;
+    margin-left: 47%;
+    margin-bottom: 223px;
+    font-size: 21px;
+}
+.first img{
+    width: 7%;
+    height: 7%;
+    margin-left: 75px;
+    margin-right: 20%;
+    float: left;
+    margin-bottom: 160px;
+}
+button{
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+button:hover,
+button:active{
+    color: white;
+    background-color: orange;
+    transition: all 0.5s;
+
+}
+.first h1{
+    font-size: 50px;
+    margin-left: 75px;
+    font-weight: 400;
+}
+.show button{
+    margin-left: 10px;
+    color: orange;
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.dddd{
+    margin-left: -375px;
+}
+.show button:hover,
+.show button:active{
+    color: white;
+    background-color: orange;
+}
+
+
+/*******second section**********/
+
+h2{
+    margin-left: 35%;
+    margin-top: 100px;
+}
+h2:after{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90px;
+   background-color: orange;
+    height: 2px;
+    display: block;
+    content: " ";
+    margin-left: 22%;
+
+}
+.note{
+    margin-left: 24%;
+    margin-right: 24%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.second i{
+    color: orange;
+    font-size: 50px;
+    
+}
+.second h3{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+
+}
+.body{
+    margin-bottom: 100px;
+}
+
+
+/*****section 3 gallery****/
+.gallery,.gallery .container,.gallery .row,.gallery .col-lg-3{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.gallery .container{
+    width: 100%;
+    background-color: #000;
+}
+.gallery .col-lg-3{
+    background-color: #000;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    overflow: hidden;
+    opacity: 0.6;
+    background-color: black;
+}
+.gallery img:hover,
+.gallery img:active{
+    opacity: 1;
+    transform: scale(1.03);
+    transition: opacity 0.8s,transform 0.8s;
+}
+
+
+
+/****section 4***/
+
+.iphone img{
+    width: 75%;
+    height: 90%;
+    
+
+
+}
+.number{
+    font-size: 29px;
+    font-weight: 600;
+    border: 2px solid orange;
+    border-radius: 100%;
+    color: orange;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+    
+}
+.caption{
+    margin-left: 20px;
+    font-size: 17px;
+    margin-bottom: 38px;
+    
+}
+.phoneside{
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+.iphone{
+    padding-left: 48%;
+}
+.phoneside img{
+    margin-left: 0;
+    float: left;
+}
+.four{
+    background-color: rgb(248, 250, 250);
+}
+
+
+/*******section 5*******/
+.five .col-sm-3 img{
+    width: 100%;
+}
+.five h5{
+    margin-top: 20px;
+    font-weight: 400;
+    
+}
+.five i {
+    color: orangered;
+    font-size: 20px;
+}
+.five a{
+     color: orangered;
+     text-decoration: underline;
+     margin-left: 17px;
+}
+.five{
+    padding-bottom: 120px;
+}
+
+/************section 6*********/
+.six{
+    padding-top: 1px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin-bottom: 0;
+
+}
+.quotation{
+    font-size: 130px;
+    margin-bottom: 0;
+    height: 100px;
+}
+.quotation1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.six img{
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+
+/*******seven********/
+.seven{
+    background-color: rgba(174, 179, 179, 0.425);
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.firstpart,.secondpart,.thirdpart{
+    background-color: white;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+.price{
+    color: orange;
+    font-size: 50px;
+}
+.duration{
+    color: orange;
+}
+.thirdpart{
+    margin-top: -15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.thirdpart button{
+    margin-top: 2px;
+}
+.dot{
+color: white;
+}
+
+/***section eight*****/
+
+form{
+    margin-left: 35%;
+}
+.formform{
+    margin-top: 15px;
+}
+.tag{
+    font-size: 20px;
+}
+input{
+    width: 30%;
+    margin-right: 0;
+    margin-left: 16%;
+}
+select{
+    margin-left: 20px;
+}
+#tag1{
+    margin-left: 15%;
+}
+.msg{
+    padding-bottom: 50px;
+    margin-left: 9%;
+}
+.yes{
+    margin-left: 0;
+}
+#tag3{
+    margin-right: 2px;
+    margin-left: 0;
+}
+.tag4{
+    margin-left: 14%;
+}
+.yes{
+    margin-left: -13%;
+}
+
+.footer{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding-top: 20px;
+}
+.eight{
+    padding-bottom: 30px;
+
+}
+
+
+/**************footer*******/
+.footer li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.footer a{
+    color: white;
+}
+.footer a:hover,
+.footer a:active{
+    text-decoration: none;
+    font-size: 15px;
+    transition: font-size 0.4s;
+}
+.logo{
+    float: left;
+    margin-right: 50%;
+}
+.logo2{
+    margin-left: 70%;
+}
+.copyright{
+    text-align: center;
+}
+.footer{
+    padding-bottom: 30px;
+}
+.c{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding:  5px;
+    padding-top: 1px;
+}
+
+
